@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sanjeevi G | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sanjeevi Gopalakrishnan</h1>
+    <p>MCA Student | Web Developer | MERN & Flutter Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#certs">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently pursuing MCA at Kongu Engineering College. I'm passionate about Web Development, Full Stack, Flutter, and Cloud Technologies.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Languages: Java, Python, Dart (Basics)</li>
+      <li>Frontend: HTML, CSS, JavaScript, React</li>
+      <li>Backend: Firebase</li>
+      <li>Tools: VS Code, GitHub, Flutter</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project" onclick="showProject('Web-Based Communication Tool', 'A MERN chat app with real-time messaging, JWT auth, Socket.io.')">Web-Based Communication Tool</div>
+    <div class="project" onclick="showProject('Tourism Management System', 'Tour booking system using PHP, JS and MySQL backend.')">Tourism Management System</div>
+    <div class="project" onclick="showProject('Attendance Tracker', 'Mobile app for attendance using React Native & Firebase.')">Attendance Tracker</div>
+  </section>
+
+  <section id="research">
+    <h2>Research Work</h2>
+    <p><strong>Neurocinematics:</strong> Explored mood changes due to movies using ML (Random Forest, XGBoost, Logistic Regression).</p>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications & Trainings</h2>
+    <ul>
+      <li>Python & Trends – Brainery Spot</li>
+      <li>Employability Training – RND SOFTECH</li>
+      <li>Diploma in Computer Applications (DCA)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sanjeevigoplavijaya47@gmail.com">sanjeevigoplavijaya47@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Sanjeevi18">github.com/Sanjeevi18</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sanjeevi-g-969bb2224/">linkedin.com/in/sanjeevi-g</a></p>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
